@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la Encuesta</title>
+    <style>
+     
+        body {
+            background-color: #0b0c18; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+  
+        .contenedor-resultados {
+            background-color: #ffffff;
+            width: 550px;
+            padding: 40px;
+            border-radius: 8px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+
+        h1 {
+            font-size: 26px;
+            margin-top: 0;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+            color: #000;
+        }
+
+        
+        .logo-universidad {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin: 0 auto 25px auto;
+            display: block;
+          
+            background-color: #1b2845; 
+        }
+
+
+        .datos-usuario {
+            text-align: left;
+            margin-bottom: 40px;
+            padding-left: 10px;
+        }
+
+        .datos-usuario p {
+            font-size: 15px;
+            margin: 18px 0;
+            color: #000;
+        }
+
+      
+        .datos-usuario strong {
+            font-weight: 700;
+        }
+
+  
+        .boton-volver {
+            background-color: #5bc0de; /* Azul claro */
+            border: 2px solid #000000; /* Borde negro sólido */
+            border-radius: 6px;
+            padding: 12px 40px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #000;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton-volver:hover {
+            background-color: #46b8da; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-resultados">
+        <h1>RESULTADOS</h1>
+        
+     
+        <img src="https://www.campusumi.com/app/asset/img/LogotipoUMI.svg" alt="Logo Universidad México Internacional" class="logo-universidad">
+        
+        <h2>BIEN HECHO</h2>
+        
+        <div class="datos-usuario">
+            <p><strong>Nombre:</strong> Jorge Luis Huerta Nava</p>
+            <p><strong>Edad:</strong> 26</p>
+            <p><strong>Ciudad:</strong> Culiacan</p>
+            <p><strong>Fecha de nacimiento:</strong> 2000-07-10</p>
+            <p><strong>Hobby:</strong> Videojuegos</p>
+        </div>
+        
+    
+        <a href="javascript:location.reload()" class="boton-volver">¡Volver a ingresar!</a>
+    </div>
+
+</body>
+</html>
